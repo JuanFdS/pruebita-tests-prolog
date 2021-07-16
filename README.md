@@ -1,0 +1,1 @@
+El objetivo del módulo `begin_tests_con` es poder pasar hechos/reglas que solo existan en el contexto de un test, para facilitar la tarea de testear los predicados sin necesitar una base de conocimientos demasiado compleja y poder tener los hechos relevantes a los tests cerca del mismo test.
