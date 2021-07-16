@@ -1,4 +1,4 @@
-:- use_module(tests_given).
+:- use_module(begin_tests_con).
 
 puntaje(shrek2, 9).
 puntaje(pulpFiction, 8).
@@ -6,7 +6,7 @@ puntaje(pulpFiction, 8).
 obraMaestra(Pelicula):-
    puntaje(Pelicula, 10).
 
-:-begin_tests_given(unos_tests, [puntaje(backToTheFuture, 10)]).
+:-begin_tests_con(unos_tests, [puntaje(backToTheFuture, 10)]).
 
 test(una_pelicula_es_obra_maestra_si_su_puntaje_es_10, nondet):-
     obraMaestra(backToTheFuture).
